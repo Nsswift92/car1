@@ -1,0 +1,233 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: 100vw;
+    padding-top: 70px;
+}
+.header {
+    width: 100wv;
+    box-shadow: 0 -200px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 0;
+}
+.block-one {
+    max-width: 1251px;
+    background-color: #d4d4d2;
+    margin: auto;
+    display: flex;
+}
+.logo {
+    flex-basis: 28%;
+    text-align: center;
+    padding-top: 10px;
+    background-color:#1f1c1c;
+}
+.nav {
+    flex-basis: 74%;
+    display: flex;
+    justify-content: end;
+    padding: 0;
+}
+.nav__item {
+    margin: -16px 0;
+    padding: 0;
+    height: 100px;
+    flex-basis: 20%;
+    text-align: center;
+    list-style-type: none;
+    background-color: #d4d4d2;
+    text-decoration: none;
+    color: #1f1c1c;
+    padding: 6% 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+.nav__item:nth-child(3), .nav__item:nth-child(5) {
+    background-color: white;
+}
+.home {
+    background-color: #ffd45e;
+}
+.h1 {
+    font-size: 40px;
+    color: #ffd45e;
+}
+.h2 {
+    font-size: 30px;
+    color: #d4d4d2;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+.container {
+    max-width: 1251px;
+    background-color: #fffcf5;
+    margin: auto;
+}
+.block__one {
+    display: flex;
+}
+.block__one-image {
+    flex-basis: 50%;
+    
+}
+
+.block__one1 {
+    flex-basis: 50%;
+}
+.block__one-image1 {
+    width: 100%;
+}
+.block__one-1 {
+    display: flex;
+}
+.block__one-1-text {
+    flex-basis: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.block__one-1-image {
+    flex-basis: 50%;
+    width: 50%;
+}
+.block__two {
+    display: flex;
+}
+.block__two-text1 {
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffd45e;
+    box-sizing: border-box;
+}
+.block__two-image {
+    flex-basis: 25%;
+}
+.block__two-tex2 {
+    flex-basis: 25%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.blck__three {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.block__three-1 {
+    margin: 0;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.block__three2 {
+    flex-basis: 50%;
+}
+.block__three-2 {
+    width: 100%;
+    display: flex;
+}
+.block__three-2-text {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffd45e;
+    box-sizing: border-box;
+}
+.block__three-image2 {
+     width: 100%;
+     margin-bottom: -4px;
+}
+.block__three-2-image {
+    flex-basis: 50%;
+    width: 50%;
+}
+.block__for {
+    border: solid 1px;
+    display: flex;
+    margin-bottom: 0;
+    height: 100%;
+}
+.block__for-left {
+    flex-basis: 50%;
+    display: flex;
+}
+.block__for-left1 {
+    flex-basis: 50%;
+}
+.block__for-left1-nav {
+    flex-basis: 50%;
+}
+.block__for-left1-text {
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffd45e;
+}
+.block__for-left1-image {
+    flex-basis: 50%;
+    width: 100%;
+}
+.left-block4__image2 {
+    width: 50%;
+    border-radius: 100%;
+}
+.block__for-right {
+    flex-basis: 50%;
+}
+.block__for-1 {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.block__for-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    color: white;
+    border: none;
+    background-color: black;
+    padding: 20px 30px;
+    font-size: 25px;
+}
+.block__for-2-text {
+text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffd45e;
+}
+.nav1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+  padding:  0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav1__item {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.nav1__item-li {
+    padding: 12px 21px;
+    box-sizing: border-box;
+    background-color: black;
+    border-bottom: solid 1px white;
+}
+.nav1__item-li1 {
+    border-bottom: none;
+}
