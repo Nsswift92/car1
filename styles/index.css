@@ -30,6 +30,14 @@ body {
     padding: 0;
 }
 .nav__item {
+    text-align:center;
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#ffd45e 50%,#ffd45e);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    cursor: pointer;
     margin: -16px 0;
     padding: 0;
     height: 100px;
@@ -45,7 +53,8 @@ body {
     font-size: 30px;
 }
 .nav__item:hover {
-    background-color: #ffd45e;
+    background-position: 0 0;
+   color:black;
 }
 .nav__item:nth-child(3), .nav__item:nth-child(5) {
     background-color: white;
@@ -75,7 +84,7 @@ p {
 }
 .container {
     max-width: 1251px;
-    background-color: #fffcf5;
+    background-color: #faf8f2;
     margin: auto;
 }
 .block__one {
@@ -204,18 +213,26 @@ p {
     display: flex;
     justify-content: space-between;
 }
-.button {
+.button{
     color: white;
     border: none;
     background-color: black;
     padding: 20px 30px;
-    font-size: 25px;
-}
-.button:hover {
-    color: black;
-    background-color: #ffd45e;
-
-}
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align:center;
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#ffd45e 50%,#ffd45e);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    cursor: pointer;
+ }
+ .button:hover {
+    background-position: 0 0;
+    color:black;
+ }
 .block__for-2-text {
 text-align: center;
     padding: 20px;
@@ -232,11 +249,20 @@ text-align: center;
   box-sizing: border-box;
 }
 .nav1__item {
+    width: 100%;
     text-decoration: none;
     text-align: center;
     color: white;
     font-size: 22px;
     background-color: black;
+    text-align:center;
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#ffd45e 50%,#ffd45e);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    cursor: pointer;
 }
 .nav1__item-li {
     box-sizing: border-box;
@@ -244,8 +270,9 @@ text-align: center;
     border-bottom: solid 1px rgb(43, 43, 43);
 }
 .nav1__item:hover {
-    background-color: #ffd45e;
-    color: black
+    background-position: 0 0;
+   color:black;
+    
 }
 .home1 {
     background-color: #ffd45e;
@@ -256,4 +283,36 @@ text-align: center;
     box-sizing: border-box;
     padding: 13px;
     
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer p {
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.icons {
+    display: flex;
+    justify-content: baseline;
+}
+
+.fa {
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    transition: 0.5s;
+}
+.fa:hover {
+    transform: rotateZ(360deg);
+    color: white;
+}
+.fa-facebook {
+    color: black;
+    background: #ffd45e;
+}
+.fa-twitter {
+    color: #ffd45e;
+    background: black;
 }
